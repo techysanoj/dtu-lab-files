@@ -1,0 +1,186 @@
+﻿Test Id,Title,Description
+1,All mandatory fields should be validated and indicated by an asterisk (*) symbol.,"Check all the mandatory fields in all the forms, screens, pop-up windows etc. and make sure that they are marked by an asterix(*) symbol. Additionaly if there are any agreed upon colour coding for such fields and the asterix symbol, then that should be present."
+2,Validation error messages should be displayed properly in the correct position.,Entering invalid values in a field on any webpage should trigger error messages. The triggered error messages should as per the expected design emntioned in the FRD or any agreed upon knowlwedge base document.
+3,"All error messages should be displayed in the same CSS style (For Example, using red color)",Any error message which is triggered during any validation should be colour coddes in the same CSSstyle so as to make the colour coding consistent for an application.
+4,"General confirmation messages should be displayed using CSS style other than error messages style (For Example, using green color)","Any message other than standard error message(warning message etc.) should be displayed in a css style(colour) other than thecolour/style used for an error message. For example, if error message is displayed in red colour then a warning message should be somethign else like green colour."
+5,Tooltips text should be meaningful.,Tooltips help the user to get a quick description about a particular web component/fucntionality. Thes etooltips should convey meaningful information about that component/tool on a page and should be brief.
+6,Drop-down fields should have the first entry as blank or text like ‘Select’.,All the drop-downs in any page of an applictaion should have the first entry as blank or a text like 'Select'. This is helpful in conveying that nothing is select by default unless otherwise required by design.
+7,‘Delete functionality’ for any record on a page should ask for a confirmation.,"Clicking on the delete button on any webpage should not trigger the delete action right-away. Instead the system should ask for confirmation from the user through a proper agreed upon standard chanel. For example, on clicking the delete button should make a pop-up appear onscreen with teh appropriate confirmation message and an ""ok"" and ""cancel"" button."
+8,Select/deselect all records option should be provided if page supports record add/delete/update functionality,Whenever a page support add/update/delete fucntionality then theat page should provide the user with an option to select all the selectable items with a select all button. That page should also provide another option to deselect all select items at once with the deselect alloption
+9,Amount values should be displayed with correct currency symbols.,"Fields which are supposed to be updated with currency values or are supposed to display currency values, should contain proepr currency symbols. These symbols should be relevant to the currency being displayed by default or the currecny to be entered."
+10,Default page sorting should be provided.,Page should be sorted by default.
+11,Reset button functionality should set default values for all fields.,Clicking on the reset button should discard the recent changes and set the values of all fields to their defaultvalues
+12,All numeric values should be formatted properly.,All the numeric fields should be formatted correctly. The decimel places for fields having decimel values should be correct upto to the required number of values after the decimel places. The integer fields should not display decimel values.
+13,Input fields should be checked for the max field value. Input values greater than the specified max limit should not be accepted or stored in the database.,The input fields should have proper checks for acceptable max value. Required truncation should be in place for values excedding the accepable limit.
+14,Check all input fields for special characters.,Proper checks should be in place for special characters in input fields. If special characters are accepatble then it should accept and if special characters are nota acceptable then it should throw an error.
+15,Field labels should be standard e.g. field accepting user’s first name should be labeled properly as ‘First Name’.,Field labels should be standard. This standard should be based on the base document (whicheve document is accepted as the base)
+16,Check page sorting functionality after add/edit/delete operations on any record.,"The sorting on a page should be correct even if a record is added , removed or updated.Post this actions the sorting should still be correct."
+17,Check for timeout functionality. Timeout values should be configurable. Check application behavior after the operation timeout.,
+18,Check cookies used in an application.,
+19,Check if downloadable files are pointing to the correct file paths.,Check if downloadable files are pointing to the correct file paths.
+20,All resource keys should be configurable in config files or database instead of hard coding.,There shouldn't be any hard coding done.
+21,Standard conventions should be followed throughout for naming resource keys.,The naming conventio should be standard for the resource keys. This standard should be based on a base document.
+22,Validate markup for all web pages (validate HTML and CSS for syntax errors) to make sure it is compliant with the standards.,All the markup in web pages should be standard.
+23,Application crash or unavailable pages should be redirected to the error page.,Whenever a webpage crashes then user should be re-directed to an errorpage having a standard error message. The same should be true for unavilable page as well.
+24,Check the text on all pages for spelling and grammatical errors.,The text appearing in all the pages should be free from any spelling and grammatical errors.
+25,Check numeric input fields with character input values. A proper validation message should appear.,The numeric fields should have validation for character input. A proper error message should be displayed whenever user tries to enter a character in a numeric .
+26,Check for negative numbers if allowed for numeric fields.,The numeric fields should have validation for character input. A proper error message should be displayed whenever user tries to enter a character in a numeric .
+27,Check the number of fields with decimal number values.,The numeric fields should have validation for decimel input. A proper error message should be displayed whenever user tries to enter a decimel in a numeric .
+28,Check the functionality of buttons available on all pages.,All the buttons in every page should behave as expected. The functionality should be inline to the agreed standards or base document.
+29,The user should not be able to submit a page twice by pressing the submit button in quick succession.,The user should not be able to submit a page twice by pressing the submit button in quick succession.
+30,Divide by zero errors should be handled for any calculations.,Divide by zero errors should be handled for any calculations.
+31,Input data with the first and last position blank should be handled correctly.,Spaces in input should be handled correctly.
+32,"All fields on a page (For Example, text box, radio options, drop-down lists) should be aligned properly.","All fields on a page (For Example, text box, radio options, drop-down lists) should be aligned properly."
+33, Numeric values should be justified correctly unless specified otherwise.,All the numeric fields should be justified correctly. For example if the standard required numeric fields to be left justified then all the numeric fields in all pages should be left justified.
+34,"Enough space should be provided between field labels, columns, rows, error messages, etc.","The field labels, columns etc. should have proper spacing between them. This is required for improved readability."
+35,The scrollbar should be enabled only when necessary.,The scrollbar should be enabled only when necessary.
+36,"Font size, style, and color for headline, description text, labels, infield data, and grid info should be standard as specified in SRS.","Font size, style, and color for headline, description text, labels, infield data, and grid info should be standard as specified in SRS."
+37,The description text box should be multi-lined.,The description text box should be multi-lined.
+38,Disabled fields should be greyed out and users should not be able to set focus on these fields.,
+39,"Upon click of an input text field, the mouse arrow pointer should get changed to the cursor.",
+40, The user should not be able to type in drop-down select lists.,The user should be able totype in a dropdown list in addition to the usual drop down action of selecting an option from the list.
+41,Information filled by users should remain intact when there is an error message on page submit. The user should be able to submit the form again by correcting the errors.,"Whenever an error ocurs on page submit, then the user enetred information on rest of the fields where the inputs are valid, should retain there values. The user should be able to submit the form again by correcting the errors."
+42,Check if proper field labels are used in error messages.,"In the error messages which occur due to a particular field, the fieldlabel in such error message should be correct."
+43,Check if the drop-down list options are readable and not truncated due to field size limits.,The drop down list options should have readable labels. If the option labels are longer then usual then proper formatting should be in place but these labels should not be truncated
+44,All buttons on a page should be accessible by keyboard shortcuts and the user should be able to perform all operations using a keyboard.,"In adition to mouse actions, the fields on a page should be accessible by keyboard shortcuts. Whichever fucntions can be performed by mouse should be accessible wit keyboard as well"
+45,Check all pages for broken images.,"All the images , icons etc. should be intact and visible correctly. None of the images hsould be broken."
+46,Check all pages for broken links.,All the links should be intact and visible correctly. None of the images hsould be broken.
+47,All pages should have a title.,All pages should have a title.
+48,Confirmation messages should be displayed before performing any update or delete operation.,Whenever any update or delete action is performed then the proper warning or error message should be there.
+49,Hourglass should be displayed when the application is busy.,"During an event such as page loading in progress, an hourglass icon should be displayed."
+50,Page text should be left-justified.,Page text should be left-justified.
+51,The user should be able to select only one radio option and any combination for checkboxes.,The user should be able to select only one radio option and any combination for checkboxes.
+52,The user should be able to filter results using all parameters on the page.,The user should be able to filter results using all parameters on the page.
+53,Refine search functionality should load the search page with all user-selected search parameters.,The search functionality should filter and load the search page with all user-selected search parameters.
+54,"When there are at least one filter criteria required to perform the search operation, make sure the proper error message is displayed when the user submits the page without selecting any filter criteria.","When there are at least one filter criteria required to perform the search operation, make sure the proper error message is displayed when the user submits the page without selecting any filter criteria."
+55,"When at least one filter criteria selection is not compulsory, the user should be able to submit the page and the default search criteria should get used to query results.","When at least one filter criteria selection is not compulsory, the user should be able to submit the page and the default search criteria should get used to query results."
+56,Proper validation messages should be displayed for all invalid values for filter criteria.,Proper validation messages should be displayed for all invalid values for filter criteria.
+57,Page loading symbol should be displayed when it’s taking more than default time to load the result page.,Page loading symbol should be displayed when it’s taking more than default time to load the result page.
+58,Check if all the search parameters are used to fetch data shown on the result grid.,Check if all the search parameters are used to fetch data shown on the result grid.
+59,The total number of results should be displayed in the result grid.,The total number of results should be displayed in the result grid.
+60,Search criteria used for searching should be displayed in the result grid.,Search criteria used for searching should be displayed in the result grid.
+61,Result grid values should be sorted by default column.,Result grid values should be sorted by default column.
+62,Sorted columns should be displayed with a sort icon.,Sorted columns should be displayed with a sort icon.
+63,Result grids should include all the specified columns with correct values.,Result grids should include all the specified columns with correct values.
+64,Ascending and descending sorting functionality should work for columns supported by data sorting.,Ascending and descending sorting functionality should work for columns supported by data sorting.
+65,Result grids should be displayed with proper column and row spacing.,Result grids should be displayed with proper column and row spacing.
+66,Pagination should be enabled when there are more results than the default result count per page.,Pagination should be enabled when there are more results than the default result count per page.
+67,"Check for Next, Previous, First and Last page pagination functionality.","Check for Next, Previous, First and Last page pagination functionality."
+68,Duplicate records should not be displayed in the result grid.,Duplicate records should not be displayed in the result grid.
+69,Check if all the columns are visible and a horizontal scrollbar is enabled if necessary.,Check if all the columns are visible and a horizontal scrollbar is enabled if necessary.
+70,Check the data for dynamic columns (columns whose values are calculated dynamically based on the other column values).,Check the data for dynamic columns (columns whose values are calculated dynamically based on the other column values).
+71,For result grids showing reports check ‘Totals’ row and verify the total for every column.,For result grids showing reports check ‘Totals’ row and verify the total for every column.
+72,For result grids showing reports check ‘Totals’ row data when pagination is enabled and the user gets navigated to the next page.,For result grids showing reports check ‘Totals’ row data when pagination is enabled and the user gets navigated to the next page.
+73,Check if proper symbols are used for displaying column values e.g. % symbol should be displayed for percentage calculation.,Check if proper symbols are used for displaying column values e.g. % symbol should be displayed for percentage calculation.
+74,Check result grid data to know if the date range is enabled.,Check result grid data to know if the date range is enabled.
+75,Check if the default window size is correct.,The default window size should be as expected.
+76, Check if the child window size is correct.,The child window size should be as expected.
+77,"Check if there is any field on the page with default focus (in general, the focus should be set on the first input field of the screen).","Check if there is any field on the page with default focus (in general, the focus should be set on the first input field of the screen)."
+78,Check if child windows are getting closed on closing parent/opener window.,Child windows should always close on closing parent window. The child windows should not remain open when parent window is closed.
+79,"If the child window is opened, the user should not be able to use or update any field in the background or parent window","If the child window is opened, the user should not be able to use or update any field in the background or parent window"
+80,"Check window minimize, maximize, and close functionality.","Check window minimize, maximize, and close functionality."
+81, Check if the window is re-sizable., Check if the window is re-sizable.
+82,Check scroll bar functionality for parent and child windows.,Check scroll bar functionality for parent and child windows.
+83,Check cancel button functionality for the child window.,Check cancel button functionality for the child window.
+84,Check if correct data is getting saved in the database upon a successful page submit.,Correct data should be saved from web page to database.
+85,Check values for columns that are not accepting null values.,the columns which don't accept nullvalues should not accept null values even if it'sforceibly inserted.
+86,Check for data integrity. Data should be stored in single or multiple tables based on the design.,Check for data integrity. Data should be stored in single or multiple tables based on the design. These tables should be as per what is mentioned in the base document.
+87,Index names should be given as per the standards e.g. IND_<Tablename>_<ColumnName>,Index names should be given as per the standards e.g. IND_<Tablename>_<ColumnName>. These names should be as per the base document.
+88,Tables should have a primary key column.,Tables should have a primary key column.
+89,"Table columns should have description information available (except for audit columns like created date, created by, etc.)","Table columns should have description information available (except for audit columns like created date, created by, etc.)"
+90,For every database add/update operation log should be added.,For every database add/update operation log should be added. The log path should be standard.
+91,Required table indexes should be created.,Required table indexes should be created.
+92,Check if data is committed to the database only when the operation is successfully completed.,"Check if data is committed to the database only when the operation is successfully completed. Forany incomplete operation, the database should not get updated."
+93, Data should be rolled back in case of failed transactions., Data should be rolled back in case of failed transactions.
+94," Database name should be given as per the application type i.e. test, UAT, sandbox, live (though this is not a standard it is helpful for database maintenance)"," Database name should be given as per the application type i.e. test, UAT, sandbox, live (though this is not a standard it is helpful for database maintenance)"
+95, Database logical names should be given according to the database name (again this is not standard but helpful for DB maintenance)., Database logical names should be given according to the database name (again this is not standard but helpful for DB maintenance).
+96, Stored procedures should not be named with a prefix “sp_”, Stored procedures should not be named with a prefix “sp_”
+97," Check if values for table audit columns (like created date, created by, updated, updated by, is deleted, deleted data, deleted by, etc.) are populated properly."," Check if values for table audit columns (like created date, created by, updated, updated by, is deleted, deleted data, deleted by, etc.) are populated properly."
+98, Check if input data is not truncated while saving. Field length shown to the user on the page and in database schema should be the same., Check if input data is not truncated while saving. Field length shown to the user on the page and in database schema should be the same.
+99," Check numeric fields with minimum, maximum, and float values."," Check numeric fields with minimum, maximum, and float values. The max acceptable values, min acceptable values etc. should be as expected."
+100, Check numeric fields with negative values (for both acceptance and non-acceptance)., Check numeric fields with negative values (for both acceptance and non-acceptance). If negative values are accepted then it should be accepted but if negative values are not acceptable then user should be able to enter negative values.
+101, Check if the radio button and drop-down list options are saved correctly in the database., Check if the radio button and drop-down list options are saved correctly in the database.
+102, Check if the database fields are designed with the correct data type and data length., Check if the database fields are designed with the correct data type and data length.
+103," Check if all the table constraints like a Primary key, Foreign key, etc. are implemented correctly."," Check if all the table constraints like a Primary key, Foreign key, etc. are implemented correctly.Should be as per the base document."
+104, Test stored procedures and triggers with sample input data., Test stored procedures and triggers with sample input data.
+105, Input field leading and trailing spaces should be truncated before committing data to the database., Input field leading and trailing spaces should be truncated before committing data to the database.
+106, Null values should not be allowed for the Primary key column., Null values should not be allowed for the Primary key column.
+107,Check for uploaded image path.,Check for uploaded image path. The path should be as mentione din base document.
+108,Check image upload and change functionality.,Check image upload and change functionality. The upload path should be correct. The uploaded images should be correct after upload is done.
+109,"Check image upload functionality with image files of different extensions (For Example, JPEG, PNG, BMP, etc.)","Check image upload functionality with image files of different extensions (For Example, JPEG, PNG, BMP, etc.).The uploaded images should be correct after upload is done."
+110,Check image upload functionality with images having space or any other allowed special character in the file name.,Check image upload functionality with images having space or any other allowed special character in the file name. The images with invalid names hsould not be accepted.
+111,Check duplicate name image upload.,Check duplicate name image upload.
+112,Check image upload with image size greater than the max allowed size. The Proper error message should be displayed.,Check image upload with image size greater than the max allowed size. The Proper error message should be displayed.
+113,"Check image upload functionality with file types other than images (For Example, txt, doc, pdf, exe, etc.). A proper error message should be displayed.","Check image upload functionality with file types other than images (For Example, txt, doc, pdf, exe, etc.). A proper error message should be displayed."
+114,Check if images of specified height and width (if defined) are accepted otherwise rejected.,Check if images of specified height and width (if defined) are accepted otherwise rejected.
+115,The image upload progress bar should appear for large size images.,The image upload progress bar should appear for large size images.
+116, Check if the cancel button functionality is working in between the upload process., Check if the cancel button functionality is working in between the upload process.
+117, Check if file selection dialog shows only supported files listed., Check if file selection dialog shows only supported files listed.
+118, Check multiple images upload functionality., Check multiple images upload functionality. 
+119, Check image quality after upload. Image quality should not be changed after upload., Check image quality after upload. Image quality should not be changed after upload.
+120, Check if the user is able to use/view the uploaded images., Check if the user is able to use/view the uploaded images.
+121,The email template should use standard CSS for all emails.,The email template should use standard CSS for all emails.
+122,Email addresses should be validated before sending emails.,Email addresses should be validated before sending emails. All invalid email addrres hsould be notified in an error message.
+123,Special characters in the email body template should be handled properly.,Special characters in the email body template should be handled properly.
+124,"Language-specific characters (For Example, Russian, Chinese or German language characters) should be handled properly in the email body template.","Language-specific characters (For Example, Russian, Chinese or German language characters) should be handled properly in the email body template."
+125,Email subject should not be blank.,Email subject should not be blank. Email with blank subject should be blocked.
+126,Placeholder fields used in the email template should be replaced with actual values e.g. {Firstname} {Lastname} should be replaced with an individual’s first and last name properly for all the recipients.,Placeholder fields used in the email template should be replaced with actual values e.g. {Firstname} {Lastname} should be replaced with an individual’s first and last name properly for all the recipients.
+127,If reports with dynamic values are included in the email body and report data should be calculated correctly.,If reports with dynamic values are included in the email body and report data should be calculated correctly.
+128,Email sender name should not be blank.,Email sender name should not be blank.Email with blank sender name should be blocked.
+129,"Emails should be checked in different email clients like Outlook, Gmail, Hotmail, Yahoo! mail, etc.","Emails should be checked in different email clients like Outlook, Gmail, Hotmail, Yahoo! mail, etc."
+130,"Check to send email functionality using TO, CC and BCC fields.","Check to send email functionality using TO, CC and BCC fields."
+131,Check plain text emails.,Check plain text emails.
+132,Check HTML format emails.,Check HTML format emails.
+133,"Check email header and footer for company logo, privacy policy, and other links.","Check email header and footer for company logo, privacy policy, and other links. This should be as per the base document."
+134,Check emails with attachments.,Check emails with attachments.
+135,"Check to send email functionality to single, multiple or distribution list recipients.","Check to send email functionality to single, multiple or distribution list recipients."
+136,Check if a reply to the email address is correct.,Check if a reply to the email address is correct.
+137,Check to send the high volume of emails.,Check to send the high volume of emails.
+138,The file should get exported in the proper file extension.,The file should get exported in the proper file extension. These extension should be as per the base document.
+139,The file name for the exported Excel file should be as per the standards.,"The file name for the exported Excel file should be as per the standards, For Example, if the file name is using the timestamp, it should get replaced properly with an actual timestamp at the time of exporting the file."
+140,Date format.,Check for date format if exported Excel file contains the date columns.
+141,Number formatting for numeric or currency values.,Check number formatting for numeric or currency values. Formatting should be the same as shown on the page.
+142,The exported file should have columns with proper column names.,The exported file should have columns with proper column names.These ccolumn names hsould be as per the uplaoded base document.
+143,Default page sorting.,Default page sorting should be carried in the exported file as well.
+144,Excel file data formatting.,"Excel file data should be formatted properly with header and footer text, date, page numbers, etc. values for all pages."
+145,Page vs exported Excel file,Check if the data displayed on a page and exported Excel file is the same.
+146,Check export functionality when pagination is enabled.,Check export functionality when pagination is enabled.
+147,Export button,"Check if the export button is showing proper icon according to the exported file type, For Example, Excel file icon for xls files"
+148,Export functionality,Check export functionality for files with very large size.
+149,Export functionality for pages containing special characters.,Check export functionality for pages containing special characters. Check if these special characters are exported properly in the Excel file.
+150,Check if the page load time is within the acceptable range.,Page load time should be withing acceptable range. This acceptablerange should be as per the gareed upon standards.
+151,Check the page load on slow connections.,Page should load correctly and withign acceptable range in slow connections
+152,Response time for action.,"Check the response time for any action under a light, normal, moderate, and heavy load conditions."
+153,databse performannce,Check the performance of database stored procedures and triggers.
+154,Check the database query execution time.,Check the database query execution time. The query execution time should not cross the accepatable time range.
+155,Check for load testing of the application.,Check for load testing of the application.
+156,Check for the Stress testing of the application.,Check for the Stress testing of the application. System should not break within low stress. In high stress system should behave gracefully.
+157,CPU and memory usage.,Check CPU and memory usage under peak load conditions.
+158,Check for SQL injection attacks.,System should be resistant to SQL injection attacks.
+159,HTTPS protocol.,Secure pages should use the HTTPS protocol.
+160,Graceful Page crash,Page crash should not reveal application or server info. The error page should be displayed for this.
+161,Escape special characters in the input.,Escape special characters in the input.
+162,Error messagess,Error messages should not reveal any sensitive information.
+163,All credentials should be transferred over an encrypted channel.,All credentials should be transferred over an encrypted channel.
+164,Password,Test password security and password policy enforcement.
+165,Check application logout functionality.,"Check application logout functionality.Post logout, none of the post login page should be accessible."
+166,Check for Brute Force Attacks.,Check for Brute Force Attacks.   System should be resistant to brute force attack
+167,Cookie.,Cookie information should be stored in encrypted format only.
+168,Check session cookie.,Check session cookie duration and session termination after timeout or logout.
+169,Session tokens,Session tokens should be transmitted over a secured channel.
+170,The password should not be stored in cookies.,The password should not be stored in cookies.
+171,Test for Denial of Service attacks.,Test for Denial of Service attacks.
+172,Test for memory leakage.,Test for memory leakage.
+173,Unauthorized  access,Test unauthorized application access by manipulating variable values in the browser address bar.
+174,File extension handing,Test file extension handing so that exe files are not uploaded and executed on the server.
+175,Sensitive fields,Sensitive fields like passwords and credit card information should not have to autocomplete enabled.
+176,File upload,File upload functionality should use file type restrictions and also anti-virus for scanning uploaded files.
+177,Check if directory listing is prohibited.,Check if directory listing is prohibited.
+178,Passwords and other sensitive fields should be masked while typing.,Passwords and other sensitive fields should be masked while typing.
+179,forgot password functionality,Check if forgot password functionality is secured with features like temporary password expiry after specified hours and security question is asked before changing or requesting a new password.
+180,Verify CAPTCHA functionality.,Verify CAPTCHA functionality. The CAPTCHA shoul not be repeated.Everytime a new captcha should be generated.
+181,Check if important events are logged in log files.,Check if important events are logged in log files.
+182,access privileges,Check if access privileges are implemented correctly. Users ahving a particular access privilage should not be ableto access fucntionalities/pages of an user having a different privielage.
+183,Environment to be production,
+184,response should be okay to process,
+185,response must be valid and have a body,
